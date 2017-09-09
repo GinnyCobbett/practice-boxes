@@ -1,3 +1,18 @@
 * {
   font-family: "Open Sans";
+  font-weight: lighter;
+}
+
+.box {
+  border: 1px solid coral;
+  margin: 5px;
+  padding: 10px 30px;
+  height: 300px;
+  width: 300px;
+  background: #f8f8f8;
+  overflow: scroll;
+}
+
+.box p {
+  font-size: 20px;
 }

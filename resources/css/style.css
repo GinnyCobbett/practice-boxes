@@ -1,18 +1,33 @@
-* {
-  font-family: "Open Sans";
-  font-weight: lighter;
+body {
+  margin: 0;
+  border: 0;
+  font-family: 'Roboto Mono', monospace;
 }
 
-.box {
-  border: 1px solid coral;
-  margin: 5px;
-  padding: 10px 30px;
-  height: 300px;
-  width: 300px;
-  background: #f8f8f8;
-  overflow: scroll;
+h1 {
+  text-align: center;
+  font-size: 18px;
 }
 
-.box p {
-  font-size: 20px;
+h2 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+}
+
+.side {
+  width: 100px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 100px;
+}
+
+.center {
+  width: 100px;
+  flex-shrink: 2;
+  flex-grow: 2;
+  flex-basis: 150px;
 }
